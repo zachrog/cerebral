@@ -17,7 +17,7 @@
   },
   "homepage": "http://cerebral.github.io/cerebral-website",
   "dependencies": {
-    "cerebral": "next"
+    "cerebral": "5.2.1"
   },
   "scripts": {
     "build": "cross-env BABEL_ENV=production babel src/ --out-dir=lib/ -s",
