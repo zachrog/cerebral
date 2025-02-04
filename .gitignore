@@ -7,7 +7,6 @@ coverage
 .DS_Store
 dist
 .cache
-lib
 es
 build
 website/builder/docs
