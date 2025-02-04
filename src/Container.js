@@ -19,7 +19,7 @@ class Container extends React.Component {
       throwError('You are not passing a Cerebral app to Container')
     }
 
-    return <ControllerContext value={app || controller}>{this.props.children}</ControllerContext>
+    return <ControllerContext.Provider value={app || controller}>{this.props.children}</ControllerContext.Provider>
   }
 }
 
